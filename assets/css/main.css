@@ -439,12 +439,11 @@ hr {
   color: #fff;
   overflow: hidden;
   position: relative;
-  background: #f8f9fb;
-  background: url("../img/artwork.png") no-repeat;
-  background-size: 65%;
-  background-position: 109% 170%; }
+  background: #f8f9fb; }
   #hero-area .contents {
-    padding: 170px 0px 220px; }
+    padding: 170px 0px 220px;
+    position: relative;
+    z-index: 99; }
     #hero-area .contents h5 {
       font-size: 50px; }
     #hero-area .contents .head-title {
@@ -453,9 +452,18 @@ hr {
       line-height: 48px;
       font-weight: 700;
       margin-bottom: 30px; }
+  #hero-area .img-thumb {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    right: -60px;
+    bottom: -40px; }
+  #hero-area .img-thumb img {
+    width: auto;
+    height: 100%; }
 
 .sloder-img {
-  background: #4E4E4E; }
+  background: #fff; }
 
 /* Team Item */
 .team-item:hover {
@@ -609,7 +617,7 @@ hr {
     z-index: 99999; }
 
 .testimonial {
-  background: #4E4E4E; }
+  background: #f8f9fb; }
 
 .testimonial-item {
   padding: 40px;
@@ -645,7 +653,7 @@ hr {
     line-height: 26px;
     margin-bottom: 10px; }
     .testimonial-item .info h3 a {
-      color: #fff; }
+      color: #585b60; }
   .testimonial-item .info .indicator {
     font-size: 26px;
     font-weight: 700;
@@ -717,12 +725,12 @@ hr {
   font-size: 20px;
   line-height: 1;
   opacity: .75;
-  color: white;
+  color: #585b60;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
 .owl-carousel .owl-nav .owl-prev:before {
-  content: "\e912"; }
+  content: "\2190"; }
 
 .owl-carousel .owl-nav .owl-next:before {
   content: '\2192'; }
@@ -776,6 +784,15 @@ hr {
   -webkit-transform: scale(1.9);
   opacity: 1;
   transform: scale(1.9); }
+
+.slick-prev:before {
+  content: "\2190"; }
+
+.slick-next:before {
+  content: '\2192'; }
+
+.slick-prev:before, .slick-next:before {
+  color: #585b60; }
 
 .form-control {
   width: 100%;

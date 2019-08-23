@@ -1,6 +1,6 @@
 // Testimonial 
 .testimonial{
-	background: #4E4E4E;
+	background: #f8f9fb;
 }
 .testimonial-item{
 	padding: 40px;
@@ -43,7 +43,7 @@
 		    line-height: 26px;
 		    margin-bottom: 10px;
 		    a{
-		    	color:  #fff;
+		    	color:  #585b60;
 		    }
 		}
 		.indicator{
@@ -128,12 +128,12 @@
 	font-size: 20px;
     line-height: 1;
     opacity: .75;
-    color: white;
+    color: #585b60;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .owl-carousel .owl-nav .owl-prev:before{
-	content: "\e912";
+	content: "\2190";
 }
 .owl-carousel .owl-nav .owl-next:before{
 	content: '\2192';  
@@ -189,7 +189,15 @@
     opacity: 1;
     transform: scale(1.9);
 }
-
+.slick-prev:before {
+    content: "\2190";
+}
+.slick-next:before {
+    content: '\2192';
+}
+.slick-prev:before, .slick-next:before {
+    color: #585b60;
+}
 
 
 

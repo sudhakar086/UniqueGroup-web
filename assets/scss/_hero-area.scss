@@ -6,11 +6,13 @@
 	overflow: hidden;
 	position: relative;
 	background: #f8f9fb;
-	background: url("../img/artwork.png") no-repeat;
-	background-size: 65%;
-	background-position: 109% 170%;
+	// background: url("../img/artwork.png") no-repeat;
+	// background-size: 65%;
+	// background-position: 109% 170%;
 	.contents{
 		padding: 170px 0px 220px;
+	    position: relative;
+	    z-index: 99;
 		h5{
 			font-size: 50px;
 		}
@@ -22,8 +24,19 @@
 		    margin-bottom: 30px;
 		}
 	}
+	.img-thumb {
+	    position: absolute;
+	    width: auto;
+	    height: 100%;
+	    right: -60px;
+	    bottom: -40px;
+	}
+	.img-thumb img {
+	    width: auto;
+	    height: 100%;
+	}
 }
 
 .sloder-img{
-	background: #4E4E4E;
+	background: #fff;
 }
