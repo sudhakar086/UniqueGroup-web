@@ -75,7 +75,7 @@
     var owl = $("#testimonials");
       owl.owlCarousel({
         loop: true,
-        nav: false,
+        nav: true,
         dots: false,
         center: true,
         margin: 15,

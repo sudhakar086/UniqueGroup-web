@@ -6,8 +6,11 @@
 	overflow: hidden;
 	position: relative;
 	background: #f8f9fb;
+	background: url("../img/artwork.png") no-repeat;
+	background-size: 65%;
+	background-position: 109% 170%;
 	.contents{
-		padding: 170px 0px 50px;
+		padding: 170px 0px 220px;
 		h5{
 			font-size: 50px;
 		}
@@ -22,5 +25,5 @@
 }
 
 .sloder-img{
-	background: #34363a;
+	background: #4E4E4E;
 }

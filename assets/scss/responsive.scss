@@ -92,20 +92,24 @@
     .navbar-brand img{
         margin: 5px 0;
     }
-    #hero-area .contents{
-        padding: 150px 0px 60px 0px;
-    }
-    #hero-area .contents .head-title{
-        font-size: 20px;
-        line-height: 36px;
-        margin-bottom: 15px;
-    }
-    #hero-area .contents p{
-        font-size: 18px;
-    }
-    #hero-area .contents .btn{
-        margin: 5px 10px 10px 0px;
-    }
+    #hero-area{
+        background-size: 103%;
+        background-position: -120% 107%;
+        .contents{
+            padding: 150px 0px 60px 0px;
+            .head-title{
+                font-size: 20px;
+                line-height: 36px;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 18px;
+            }
+            .btn{
+                margin: 5px 10px 10px 0px;
+            }
+        }
+    } 
     .text-wrapper{
         padding: 60px 15px;
     }
@@ -118,6 +122,9 @@
     }
     .testimonial-item{
         padding: 0;
+    }
+    .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{
+        display: none;
     }
     .client-item-wrapper img{
         width: 70%;
@@ -147,5 +154,10 @@
     }
     .contact-form-area h2{
         font-size: 14px;
+    }
+}
+@media (max-width: 540px){
+    .client-item-wrapper img{
+        max-height: auto;
     }
 }
