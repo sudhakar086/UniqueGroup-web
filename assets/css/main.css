@@ -456,9 +456,9 @@ hr {
   #hero-area .img-thumb {
     position: absolute;
     width: auto;
-    height: 90%;
-    right: -60px;
-    bottom: -40px; }
+    height: 80%;
+    right: -50px;
+    bottom: -35px; }
   #hero-area .img-thumb img {
     width: auto;
     height: 100%; }

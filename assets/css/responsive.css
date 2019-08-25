@@ -1,16 +1,14 @@
 /* Large Screen */
 @media (min-width: 1980px) {
   #hero-area .img-thumb {
-    right: 10%;
+    right: 15%;
     bottom: -40px; } }
 @media (min-width: 1691px) {
   #hero-area .contents .head-title {
     font-size: 38px; } }
 @media (min-width: 1360px) {
   #hero-area .contents {
-    margin-right: -90px; }
-  #hero-area .img-thumb {
-    height: 95%; } }
+    margin-right: -90px; } }
 /* only small desktops */
 @media (max-width: 1199px) {
   #hero-area .contents {
