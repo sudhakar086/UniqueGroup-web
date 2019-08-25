@@ -1,30 +1,5 @@
 
-/* only small desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-    #hero-area {
-        .contents {
-            padding: 150px 0px 220px;
-            .head-title{
-                font-size: 36px;
-            }
-        }
-        .img-thumb {
-            height: 80%;
-            right: -50px;
-            bottom: -10px;
-        }
-    }
-     #hero-area .contents 
-    .services-item .services-content h3 a{
-        font-size: 14px;
-    }
-    .title-hl{
-        font-size: 30px;
-    }
-    .why .content h3{
-        font-size: 30px;
-    }
-}
+
 
 /* Large Screen */
 @media (min-width: 1980px) {
@@ -42,7 +17,44 @@
         }
     }
 }
+@media (min-width: 1360px) {
+    #hero-area {
+        .contents{
+            margin-right: -90px;
+        }
+        .img-thumb {
+            height: 95%;
+        }
+    }
+}
 
+/* only small desktops */
+@media(max-width: 1199px) {
+    #hero-area {
+        .contents {
+            padding: 150px 0px 220px;
+            margin-right: 0px;
+            .head-title{
+                font-size: 36px;
+            }
+        }
+        .img-thumb {
+            height: 78%;
+            right: -50px;
+            bottom: -10px;
+        }
+    }
+     #hero-area .contents 
+    .services-item .services-content h3 a{
+        font-size: 14px;
+    }
+    .title-hl{
+        font-size: 30px;
+    }
+    .why .content h3{
+        font-size: 30px;
+    }
+}
 /* tablets */
 @media (max-width: 991px) {
     .section-title {
@@ -51,15 +63,15 @@
     }
     #hero-area {
         .contents {
-            padding: 120px 0px 220px;
+            padding: 120px 0px 90px;
             .head-title{
                 font-size: 30px;
             }
         }
         .img-thumb {
-            height: 73%;
-            right: -50px;
-            bottom: -30px;
+            height: 70%;
+            right: -40px;
+            bottom: -10px;
         }
     }
     .services-item .services-content h3 a{
