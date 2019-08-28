@@ -242,8 +242,8 @@ hr {
     vertical-align: middle;
     display: table-cell; }
 
-.feature-thumb {
-  margin-right: -60px; }
+.feature-thumb img {
+  width: 100%; }
 
 .title-hl {
   font-size: 40px;
